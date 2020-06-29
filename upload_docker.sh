@@ -11,8 +11,8 @@ dockerpath=udacitypinzonimage
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login --username andresaaap
-docker tag udacitypinzonimage andresaaap/udacitypinzonimage:v1pro3
+docker login --username alexjvgentil
+docker tag udacitypinzonimage alexjvgentil/udacitypinzonimage:v1pro3
 # Step 3:
 # Push image to a docker repository
-docker push andresaaap/udacitypinzonimage:v1pro3
+docker push alexjvgentil/udacitypinzonimage:v1pro3
